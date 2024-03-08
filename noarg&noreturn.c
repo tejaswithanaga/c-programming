@@ -1,0 +1,15 @@
+//No Argument passed and No Return Value
+#include<stdio.h>
+void add();
+
+void add()
+{
+	int a=10,b=20,sum;
+	sum=a+b;
+	printf("Addition=%d\n",sum);
+}
+int main()
+{
+	add();
+	return 0;
+}
