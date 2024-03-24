@@ -1,0 +1,16 @@
+//No Argument Passed and No Return Value
+#include<stdio.h>
+void div();
+
+void div()
+{
+    int a=20,b=10,quotient;
+    quotient=a/b;
+    printf("Division =%d\n",quotient);
+}
+int main()
+{
+    div();
+    return 0;
+    
+}
