@@ -1,0 +1,18 @@
+//No Arguments Passed But Returns a Value
+#include<stdio.h>
+int mul();
+
+int mul()
+{
+    int a=20,b=10,product;
+    product=a*b;
+    return product;
+}
+int main()
+{
+    int productvalue;
+    productvalue=mul();
+    printf("Multiplication=%d\n",productvalue);
+    return 0;
+    
+}
