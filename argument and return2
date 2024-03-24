@@ -1,0 +1,18 @@
+//Argument Passed and Returns a Value
+#include<stdio.h>
+int sub(int a,int b);
+
+int sub(int a,int b)
+{
+    int difference;
+    difference=a-b;
+    return difference;
+}
+int main()
+{
+    int a=20,b=10,differencevalue;
+    differencevalue=sub(a,b);
+    printf("Subtraction=%d\n",differencevalue);
+    return 0;
+    
+}
